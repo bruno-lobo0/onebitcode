@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.posts {
+  padding: 30px 50px 30px 50px;
+}
+
+#bg-posts {
+  background-color: #fffafa;
+  width: 85%;
+  margin: 0 auto 0 auto;
+}
+
+#date {
+  font-family: Roboto;
+  color: #008080;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+}
+
+p {
+  font-family: Open Sans;
+  font
+}

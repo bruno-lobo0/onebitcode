@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  text-decoration: none;
+  background-color: black;
+  border: 0;
+  font-size: 20px;
+  color: white;
+}
+
+button:hover {
+  border-bottom: 2px solid red;
+  transition-duration: 1.4s;
+}
+
+.logo {
+  width: 300px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-right: 70px;
+
+}
+
+.item {}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+}
+
+.img-box {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  height: 80px;
+}
+
+.section {
+  flex: 1 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  grid-template-areas:
+    "itemtitle itemtitle itemtitle itemtitle"
+    "item1 item2 item3 item4"
+    "item5 item6 item7 item8"
+    "item9 item9 item9 item9";
+}
+
+.item {
+  width: 190px;
+}
+
+.itemtitle {
+  grid-area: itemtitle;
+  text-align: center;
+}
+
+.item1 {
+  grid-area: item1;
+}
+
+.item2 {
+  grid-area: item2;
+}
+
+.item3 {
+  grid-area: item3;
+}
+
+.item4 {
+  grid-area: item4;
+}
+
+.item5 {
+  grid-area: item5;
+}
+
+.item6 {
+  grid-area: item6;
+}
+
+.item7 {
+  grid-area: item7;
+}
+
+.item8 {
+  grid-area: item8;
+}
+
+.item9 {
+  grid-area: item9;
+}

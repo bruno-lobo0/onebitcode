@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de pesquisa</title>
+</head>
+
+<body>
+  <h3>Cadastre-se na Liga dos Astronautas</h3>
+  <form>
+    <div>
+      <label for="nome">Nome: </label>
+      <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+    </div>
+    <br>
+    <div>
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+      <label for="senha"> - Senha: </label>
+      <input type="password" name="senha" id="senha" required>
+    </div>
+    <br>
+    <div>
+      <label for="nascimento">Data de nascimento</label>
+      <input type="date" name="nascimento" id="nascimento" required>
+      <label for="foto"> - Foto:</label>
+      <input type="file" name="foto" id="foto" required>
+    </div>
+    <br>
+    <div>
+      <label for="nacionalidade">Nacionalidade:</label>
+      <select id="nacionalidade" name="nacionalidade">
+        <option value="brasil">Brasil</option>
+        <option value="africa">África</option>
+        <option value="eua">EUA</option>
+        <option value="russia">Rússia</option>
+      </select>
+      <label for="genero"> - Gênero:</label>
+      <input type="radio" name="masc" id="masc">
+      <label for="masc">Masculino</label>
+      <input type="radio" name="fem" id="fem">
+      <label for="fem">Feminino</label>
+    </div>
+    <br>
+    <div>
+      <label for="qualidade">Suas principais qualidades:</label><br>
+      | Inteligência<input type="checkbox" name="qualidade" id="qualidade">
+      | Resiliência<input type="checkbox" name="qualidade" id="qualidade">
+      | Preparo físico<input type="checkbox" name="qualidade" id="qualidade">
+      | Educação<input type="checkbox" name="qualidade" id="qualidade">|
+    </div>
+    <br>
+    <div>
+      <textarea name="comentario" id="comentario" cols="30" rows="10"
+        placeholder="Por que você gostaria de ser um astronauta?"></textarea>
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="Concluir">
+    </div>
+  </form>
+</body>
+
+</html>

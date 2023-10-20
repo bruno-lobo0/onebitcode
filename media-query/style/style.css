@@ -1,0 +1,133 @@
+.img-content {
+  width: 765px;
+  height: 500px;
+}
+
+.text-content {
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title-content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 2560px) and (min-width: 1440px) {
+
+  .img-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .title-content {
+    font-size: 60px;
+    text-align: left;
+  }
+
+  .text-content {
+    font-size: 36px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 1439px) and (min-width: 427px) {
+
+  .img-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .title-content {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .text-content {
+    font-size: 22px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+
+  .img-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .title-content {
+    font-size: 26px;
+    text-align: left;
+  }
+
+  .text-content {
+    font-size: 18px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 320px) {
+
+  .img-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .title-content {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .text-content {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 319px) and (min-width: 150px) {
+
+  .img-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .title-content {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .text-content {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+}
+
+.container1 {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  background-color: white;
+}
+
+.container2 {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  background-color: white;
+}
+
+.container3 {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  background-color: white;
+}
+
+p {
+  margin: 0;
+}
